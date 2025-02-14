@@ -16,15 +16,21 @@
         tailwind.config = {
           theme: {
             extend: {
+
               colors: {
                 clifford: '#da373d',
-              }
-            }
-          }
+              },
+              fontFamily: {
+                 manrope:['Manrope',serif],
+              },
+
+            },
+          },
         }
       </script>
+      <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="manrope-font">
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28 ">
 <!-- header section -->
  <header class="lg:flex mb-20 pt-10">
@@ -202,7 +208,118 @@ tea time at <br> The Tea House
      
 
     </section>
+    <!-- News & Events start -->
+    <section>
+      <div class="text-center mb-7">
+        <h1 class="font-bold text-5xl">News & Events</h1>
+        <p class="text-cyan-600 text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+      </div>
+      <div class="grid grid-cols-3 justify-evenly gap-10 mb-11">
+        <!-- card 1 -->
+        <div class="text-center bg-slate-50 rounded-xl shadow-xl">
+          <img src="./images/news-1.png" alt="">
+          <p class="font-sm">Feb 05, 2027</p>
+          <h4 class="font-bold">Collecting 8 points for discount</h4>
+          <p class="text-sm">There are many variations of passages of Lorem Ipsum available.</p>
+          <h5 class="font-bold">Learn More</h5>
+
+        </div>
+        <div class="text-center bg-slate-50 rounded-xl shadow-xl">
+          <img src="./images/news-1.png" alt="">
+          <p class="font-sm">Feb 05, 2027</p>
+          <h4 class="font-bold">Collecting 8 points for discount</h4>
+          <p class="text-sm">There are many variations of passages of Lorem Ipsum available.</p>
+          <h5 class="font-bold">Learn More</h5>
+
+        </div>
+        <div class="text-center bg-slate-50 rounded-xl shadow-xl">
+          <img src="./images/news-1.png" alt="">
+          <p class="font-sm">Feb 05, 2027</p>
+          <h4 class="font-bold">Collecting 8 points for discount</h4>
+          <p class="text-sm">There are many variations of passages of Lorem Ipsum available.</p>
+          <h5 class="font-bold">Learn More</h5>
+
+        </div>
+
+      </div>
+    </section>
     </main>
+
+    <footer class="bg-orange-500  text-gray-400 px-4 py-10  ">
+<div class="w-9/12 mx-auto">
+<!-- logo -->
+ <div class="flex justify-between mb-7 ">
+  <img class="mb-6" src="./images/cup.png" alt="">
+  <div class="flex items-center gap-x-16">
+    <h4>Ready to get strated?</h4>
+    <button class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-3 rounded-lg text-white font-semibold">Get Started</button>
+
+  </div>
+ </div>
+</div>
+<!-- link -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+  <!-- first colum -->
+<div class="font-semibold">
+  <h3 class="text-xl font-bold bottom-8">Quick Links</h3>
+  <ul class="space-y-7 text-gray-300">
+<li > <a class="hover:text-orange-500" href="#">Home</a></li>
+<li > <a class="hover:text-orange-500" href="#">About</a></li>
+<li > <a class="hover:text-orange-500" href="#">Insurance</a></li>
+<li > <a class="hover:text-orange-500" href="#">Privacy Policy</a></li>
+
+  </ul>
+  </div>
+  <!-- second colum -->
+  <div class="font-semibold">
+    <h3 class="text-xl font-bold bottom-8">Our Service</h3>
+    <ul class="space-y-7 text-gray-300">
+  <li > <a class="hover:text-orange-500" href="#">Life Insurance</a></li>
+  <li > <a class="hover:text-orange-500" href="#">Car Insurance</a></li>
+  <li > <a class="hover:text-orange-500" href="#">Health Insurance</a></li>
+  <li > <a class="hover:text-orange-500" href="#">House Insurance</a></li>
+  
+    </ul>
+    </div>
+    <!-- third colum -->
+    <div class="font-semibold">
+      <h3 class="text-xl font-bold bottom-8">Help</h3>
+      <ul class="space-y-7 text-gray-300">
+    <li > <a class="hover:text-orange-500" href="#">FAQs</a></li>
+    <li > <a class="hover:text-orange-500" href="#">Contact</a></li>
+
+    
+      </ul>
+
+</div>
+<!-- fouth colum -->
+ <div>
+
+<h3 class="text-xl font-bold bottom-8">Subscribe to our newsletter</h3>
+<div class="flex flex-col my-5 ">
+  <div>
+    <input type="text" placeholder="Enter Email" class="bg-transparent border-b-2 border-b-black">
+    <i class="fa-solid fa-circle-chevron-right bg-red-500 text-5xl rounded-full text-white"  ></i>
+  </div>
+  <div class="flex  w-2/5 justify-between mt-10">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-square-twitter"></i>
+
+
+  </div>
+  
+</div>
+
+</div>
+
+</div>
+<div class="text-center mt-7 pt-5">
+  <p class="text-sm text-gray-600">© 2027 UIDesign.to - All rights reserved</p>
+
+</div>
+
+    </footer>
     
 </body>
 </html>
